@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>表单t</title>
+</head>
+<body>
+<!--
+    action:表单数据提交到哪
+    methon：指用什么方法提交数据，get，post
+
+    get与post提交数据的区别：
+    + get传输数据大小有限，不安全（在浏览器地址栏可以看到提交的数据）：一般用于获取数据
+    + post 方式传输数据相对较大，比get方式安全：一般用于提交数据
+
+    http/https 协议（请求头，请求的内容）
+-->
+<form action="" method="get">
+    <!-- text:文本输入框-->
+    <!--label:标签 -->
+    <!--
+    type:输入框的类型
+    name：这个输入框的名字，一般一个name值在一个form中不能重复，checkbox除外
+    id：给input起一个唯一名字
+    value:默认的值
+    checkbox: 复选项（多选项），name值为：“名字[]"
+    radio：单选框，需要写入value的值，单选框组合的name的值必须一致
+    button：普通按钮
+    reset:重置按钮
+    -->
+    <label for="username">用户名：<input type="text" name="user" id="username" value="3434">
+        <br />
+
+       <label for="passwod"> 密码：<input type="password" name="pwd" id="passwod">
+            <br />
+            <label for="sex"> 性别：</label>
+            <!--checked:表示默认选中-->
+            <input type="radio" name="sex" value="man" id="sex"/>男
+            <input type="radio" name="sex" value="woman" id="sex" checked="checked"/>女
+            <br />
+            <input type="checkbox" name="[]" id="" value="1">篮球
+            <input type="checkbox" name="[]" id="" value="2">足球
+            <input type="checkbox" name="[]" id="" value="3">羽毛球
+            <br />
+            <input type="submit" value="提交">
+            <input type="submit" value="普通按钮">
+            <button>普通按钮</button>
+            <input type="reset" value="重置">
+    </form>
+
+        <!--
+        cursor:poiner 鼠标放上去变手
+        hover 颜色改变
+        -->
+
+</html>

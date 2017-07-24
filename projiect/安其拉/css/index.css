@@ -1,0 +1,580 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearFix{
+
+    zoom: 1;
+}
+.clearFix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+
+.header{
+    width: 1200px;
+    height: 98px;
+    margin: 0 auto;
+    position:relative ;
+}
+.header .logo i{
+    width: 340px;
+    height: 68px;
+}
+.header i.logo {
+    background: url("../images/logo.png") 0 0 no-repeat;
+    display: inline-block;
+    margin-top: 14px;
+    margin-left: 40px;
+}
+.header ul .ft i{
+    width:38px;
+    height: 44px;
+}
+.header .ft i.icon_tine10{
+    background: url("../images/icon_tine10.png") 0 0 no-repeat;
+    display: inline-block;
+    position: absolute;
+    left: 550px;
+    top: 30px;
+}
+
+.header ul .tw i{
+    width:44px;
+    height: 38px;
+}
+.header .tw i.icon_tine11{
+    background: url("../images/icon_tine11.png") 0 0 no-repeat;
+    display: inline-block;
+    position: absolute;
+    left: 780px;
+    top: 32px;
+}
+.header ul .lt i{
+    width:40px;
+    height: 42px;
+}
+.header .lt i.icon_tine12{
+    background: url("../images/icon_tine12.png") 0 0 no-repeat;
+    display: inline-block;
+    position: absolute;
+    left: 1033px;
+    top: 32px;
+}
+.header ul li{
+    float: left;
+}
+.header ul li a {
+    font-size: 14px;
+    color: #000000;
+    font-family: "Adobe 黑体 Std";
+    text-decoration: none;
+}
+.header ul li p {
+    color: #000000;
+    font-family: "Adobe 黑体 Std";
+    text-decoration: none;
+    margin-left: 400px;
+}
+.header ul li .a{
+    width:106px;
+    margin-left: 604px;
+    margin-top: -65px;
+}
+.header ul li .b{
+    width:120px;
+    margin-left: 840px;
+    margin-top: -65px;
+}
+.header ul li .c{
+    width:120px;
+    margin-left: 1092px;
+    margin-top: -65px;
+}
+
+
+
+.banner{
+    width:100%;
+    height: 532px;
+    background-color: #0068bf;
+}
+.banner .title{
+    width: 100%;
+    height: 60px;
+}
+.banner .title ul{
+    width:1200px;
+    margin: 0 auto;
+}
+.banner .title ul li{
+    float: left;
+}
+.banner .title ul li a{
+    font-size: 18px;
+    color: #ffffff;
+    font-family: "Adobe 黑体 Std";
+    text-decoration: none;
+    padding-right: 66px;
+    padding-left: 68px;
+    line-height: 60px;
+}
+.banner .title ul .sy{
+    background-color: #06297b;
+    display: inline-block;
+}
+.banner .tp i{
+    width: 100%;
+    height: 472px;
+}
+.banner .tp i.icon_tine13{
+    background: url("../images/icon_tine13.png") 0 0 no-repeat;
+    display: inline-block;
+}
+
+
+
+
+.com{
+    width:100%;
+    height: 400px;
+    background-color: #64a7df;
+}
+.com .container{
+    width:1200px;
+    height: 400px;
+    margin:0 auto;
+    position: relative;
+}
+.com .left{
+    width:50%;
+    height: 400px;
+    float: left;
+}
+.com .right{
+    width:50%;
+    height: 400px;
+    float:left;
+}
+
+
+
+.com .left h1{
+    font-size: 22px;
+    color: #ffffff;
+    font-family: "Adobe 黑体 Std";
+    margin-top: 100px;
+    margin-left: 130px;
+}
+.com .left p{
+    width:400px;
+    color: #ffffff;
+    font-size: 10px;
+    font-family: "Adobe 黑体 Std";
+    margin-left: 130px;
+    line-height: 25px;
+    margin-top: 20px;
+}
+.com .left .b{
+    width: 88px;
+    height: 32px;
+    background-color: #ec8e0c;
+    border-radius: 10%;
+    -webkit-border-radius:10%;
+    -moz-border-radius:10%;
+    margin-left: 440px;
+    margin-top: 34px;
+    text-align: center;
+}
+.com .left span{
+    font-family: "微软雅黑";
+    font-size: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.com .right .box{
+    padding: 83px 0 48px 40px;
+    width: 511px;
+    height: 270px;
+    background: url("../images/icon_tine.png") right center no-repeat;
+    position: absolute;
+    z-index: 12;
+
+}
+.com .right .text{
+    width:270px;
+    height: 270px;
+    border-radius: 50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    background-color: #fff;
+    position: absolute;
+    left: 640px;
+    top: 83px;
+    z-index: 0;
+}
+.com .right .text p{
+    width:110px;
+    margin-left: 65px;
+    font-size: 10px;
+    color: #000;
+    line-height: 25px;
+}
+.com .right .text p:first-child{
+    margin-top: 65px;
+    margin-left: 65px;
+    margin-bottom: 15px;
+}
+
+.com .container i.icon_tine1{
+    display: inline-block;
+    width: 88px;
+    height: 44px;
+    background: url(../images/icon_tine1.png) center center  no-repeat;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -44px;
+}
+.com  .container i.icon_tine2{
+    display: inline-block;
+    width: 38px;
+    height: 90px;
+    background: url(../images/icon_tine2.png) center center no-repeat;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -19px;
+}
+
+
+.prod{
+    width:100%;
+    height: 500px;
+    background: url("../images/bg.png") 0 0 no-repeat;
+    -webkit-background-size:100% 100%;
+
+}
+.pord .product{
+    width:1200px;
+    height: 500px;
+
+}
+.prod  .title{
+    text-align: center;
+    padding-top: 26px;
+}
+.prod  .title h3{
+    font-family: "Adobe 黑体 Std";
+    font-size: 12px;
+    color: #646464;
+    font-weight: bold;
+}
+.prod .title h1{
+    font-family: "Adobe 黑体 Std";
+    font-size: 18px;
+    color: #363534;
+    font-weight: bold;
+}
+.prod .line{
+    width:116px;
+    height: 1px;
+    background-color:#969594 ;
+    margin:10px auto;
+    position: relative;
+}
+.prod .line>div{
+    width:38px;
+    height: 5px;
+    background-color: #959594;
+    margin-left: 38px;
+    padding-top: -2px;
+    position: absolute;
+    top:-2px;
+}
+.pord .ul li{
+    width: 324px;
+    height: 176px;
+}
+.prod i.icon_tine3{
+    background: url("../images/icon_tine3.png") 0 0 no-repeat;
+    display: inline-block;
+}
+
+
+.prod ul{
+    width: 1074px;
+    margin:0 auto;
+    position: relative;
+}
+.prod ul li i{
+    width: 322px;
+    height: 174px;
+    display: inline-block;
+    float: left;
+    vertical-align:middle;
+    margin-bottom: 18px;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.prod li >div{
+    width: 322px;
+    height: 174px;
+    background-color: #7f7f7f;
+    float: left;
+}
+.prod ul li i.icon_tine3{
+    background: url("../images/icon_tine3.png") 0 0 no-repeat;
+
+}
+.prod ul li i.icon_tine4{
+    background: url("../images/icon_tine4.png") 0 0 no-repeat;
+}
+.prod ul li i.icon_tine5{
+    background: url("../images/icon_tine5.png") 0 0 no-repeat;
+}
+.prod ul li i.icon_tine6{
+    background: url("../images/icon_tine6.png") 0 0 no-repeat;
+}
+.prod ul li i.icon_tine7{
+    background: url("../images/icon_tine7.png") 0 0 no-repeat;
+}
+.prod ul li i.icon_tine8{
+    background: url("../images/icon_tine8.png") 0 0 no-repeat;
+}
+
+
+.prod li .wz{
+    position: absolute;
+    left: 18px;
+    top: 0;
+     background-color: rgba(1.5, 0.5, 0.5, alpha)
+   
+}
+
+.prod li .c{
+    position: absolute;
+    left: 376px;
+    top: 0;
+    display:none;
+}
+.prod li .d{
+    position: absolute;
+    left: 734px;
+    top: 0;
+    display: none;
+}
+.prod li .e{
+    position: absolute;
+    left: 18px;
+    top: 0px;
+    display: none;
+}
+.prod li .f {
+    position: absolute;
+    left: 376px;
+    top: 0px;
+    display: none;
+}
+.prod li .g{
+    position: absolute;
+    left: 734px;
+    top: 0px;
+    display: none;
+}
+.prod li .wz h4{
+    font-family: "Adobe 黑体 Std";
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 34px;
+}
+.prod li .wz .a{
+    font-family: "宋体";
+    font-size: 9px;
+    color: #ffffff;
+    width: 222px;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-bottom: 0;
+    border-top:1px solid #ffffff;
+    padding-left: 34px;
+
+}
+.prod li .wz .b{
+    width: 63px;
+    font-family: "Adobe 黑体 Std";
+    font-size: 9px;
+    color: #ffffff;
+    font-weight: bold;
+    padding:10px auto;
+    background-color: #ec8e0c;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    margin-left: 226px;
+}
+
+
+
+.five{
+    width: 100%;
+    height: 425px;
+    background-color: #64a7df;
+    text-align:center;
+}
+.five .title h3{
+    font-family: "Adobe 黑体 Std";
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bold;
+    padding-top: 40px;
+}
+.five .title h1{
+    font-family: "Adobe 黑体 Std";
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.five .title h4{
+    font-family: "宋体";
+    font-size: 9px;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 20px;
+}
+.five .line{
+    width:116px;
+    height: 1px;
+    background-color:#d9e9f7;
+    margin:10px auto;
+    position: relative;
+}
+.five .line>div{
+    width:38px;
+    height: 5px;
+    background-color: #d9e9f7;
+    margin-left: 38px;
+    padding-top: -2px;
+    position: absolute;
+    top:-2px;
+}
+.five .content{
+    width:780px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 20px;
+}
+.five .content i{
+    width:185px;
+    height: 232px;
+    display: inline-block;
+    float: left;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.five .content i.icon_tine9{
+     background: url("../images/icon_tine9.png") 0 0 no-repeat;
+}
+.five .content i.icon_tine14{
+    background: url("../images/icon_tine14.png") 0 0 no-repeat;
+}
+.five .content i.icon_tine15{
+    background: url("../images/icon_tine15.png") 0 0 no-repeat;
+}
+.five .content .a{
+    width: 156px;
+    position: absolute;
+    top: 55px;
+    left: 50px;
+}
+.five .content .b{
+    width: 156px;
+    position: absolute;
+    top: 55px;
+    left: 306px;
+}
+.five .content .c{
+    width: 156px;
+    position: absolute;
+    top: 55px;
+    left: 562px;
+}
+.five h1{
+    font-family: "Adobe 黑体 Std";
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.five P{
+    font-family: "Adobe 黑体 Std";
+    font-size: 8px;
+    color: #eaeaea;
+    line-height: 20px;
+}
+
+
+.new i{
+    width:100%;
+    height: 540px;
+}
+.new i.icon_tine16{
+    background: url("../images/icon_tine16.png") 0 0 no-repeat;
+    display: inline-block;
+}
+.new .dw{
+    width: 1200px;
+    margin: -544px auto 0;
+    position: relative;
+}
+.new .dw .a{
+    position: absolute;
+    top: 28px;
+    left: 420px;
+}
+.new .dw .b{
+    position: absolute;
+    top: 226px;
+    left: 240px;
+}
+.new p{
+    width: 360px;
+    font-family: "Adobe 黑体 Std";
+    font-size: 12px;
+    color: #575656;
+    margin-left: 28px;
+}
+.new h1{
+    font-family: "Adobe 黑体 Std";
+    font-size: 18px;
+    color: #438bd6;
+}
+.new h1 span{
+    font-size: 30px;
+}
+.new .bj i{
+    width: 510px;
+    height: 374px;
+}
+.new .bj i.icon_tine17{
+    background: url("../images/icon_tine17.png") 0 0 no-repeat;
+    display: inline-block;
+    position: absolute;
+    top: 66px;
+    left:650px;
+}

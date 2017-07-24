@@ -1,0 +1,130 @@
+{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearFix{
+
+    zoom: 1;
+}
+.clearFix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.head{
+    width:372px;
+    height: 424px ;
+    background-color: #ffffff;
+    position: relative;
+    border:1px solid #969594;
+    display: inline-block;
+    margin: 0 auto;
+}
+.head .left{
+    width:50%;
+    height:58px;
+    background-color: #ffffff;
+    float: left;
+    border-bottom:1px solid #000000;
+    display: inline-block;
+}
+.head .right{
+    width: 50%;
+    height:58px;
+    background-color: #ffffff;
+    float: left;
+    border-bottom:1px solid #000000;
+    display: inline-block;
+
+}
+.head h1{
+    font-size: 18px;
+    text-align: center;
+    font-family: "微软雅黑";
+    color: #646464;
+    line-height: 22px;
+    padding-top: 10px;
+}
+.head .line{
+    width: 72px;
+    height: 4px;
+    background-color: #969594;
+    display: inline-block;
+    position: absolute;
+    z-index: 0;
+    top:56px;
+    left: 242px;
+}
+.head .title{
+    width:300px;
+    height: 42px;
+    border:1px solid #969594;
+    border-radius: 5%;
+    -webkit-border-radius:5%;
+    -moz-border-radius:5%;
+    margin-top: 16px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 36px;
+}
+.head .title h2{
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color: #646464;
+}
+.head form{
+    width: 304px;
+    height: 222px;
+    margin-left: 36px;
+    margin-right: 34px;
+}
+.head form ul li>span{
+    font-size: 18px;
+    text-align: center;
+    font-family: "微软雅黑";
+    color: #646464;
+    margin-top: 18px;
+    line-height: 40px;
+
+}
+.head form ul li{
+    margin-top: 18px;
+}
+.head form ul li>input{
+    width: 218px;
+    height: 38px;
+    float: right;
+}
+.head .box{
+    width:134px;
+    height: 40px;
+    background-color:#64a7df;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 5%;
+    -webkit-border-radius:5%;
+    -moz-border-radius:5%;
+    margin-left: 120px;
+}
+.head .box span{
+    font-size: 18px;
+    text-align: center;
+    font-family: "微软雅黑";
+    color: #ffffff;
+    line-height: 40px;
+}
+
+
+
+
+

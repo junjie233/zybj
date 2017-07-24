@@ -1,0 +1,505 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+.clearFix{
+
+    zoom: 1;
+}
+.clearFix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.header{
+    width: 100%;
+    height: 150px;
+}
+.header .tab{
+    width: 100%;
+    height: 43px;
+    background-color: #ededed;
+}
+.header .tab .box{
+    width: 1200px;
+    height:43px;
+    margin: 0 auto;
+}
+.header .tab .box i{
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #4578a8;
+    line-height: 43px;
+    text-decoration: none;
+    font-style:normal;
+}
+.header .box .left{
+    margin-right: 706px;
+}
+.header .box .right{
+    margin-right: 0;
+}
+
+.header .title{
+    width:1200px;
+
+    margin: 0 auto;
+}
+.header .title .logo{
+    width: 260px;
+    height: 66px;
+}
+.header .title .logo i.logo{
+    background: url("../images/logo.png") center center no-repeat;
+    display: inline-block;
+    margin-top: 22px;
+}
+.header .title ul{
+    width:272px;
+    height: 107px; ;
+    float: right;
+}
+.header .title ul li{
+    float: left;
+    list-style: none;
+}
+.header .title ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #4578a8;
+    list-style: none;
+    margin-left: 12px;
+}
+.header .title ul li i{
+    width: 26px;
+    height: 26px;
+}
+.header .title ul li i.icon_tine{
+    background: url("../images/icon_tine.png") 0 0 no-repeat;
+    display: inline-block;
+}
+.profile{
+    width:100%;
+    height: 436px;
+    background-color: #006197;
+}
+.profile .center{
+    width: 1200px;
+    height: 56px;
+    margin: 0 auto;
+}
+.profile .center ul li{
+    float: left;
+    margin-right: 55px;
+}
+.profile .center ul li .x{
+    margin-right: 0;
+}
+.profile .center ul li a{
+    text-decoration: none;
+    line-height: 56px;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color: #fff;
+}
+
+.profile ul li i{
+    width:16px;
+    height:8px;
+}
+.profile ul li i.icon_tine3{
+    background: url("../images/icon_tine3.png") 0 0 no-repeat;
+    display: inline-block;
+}
+.profile .ct i{
+    width: 100%;
+    height: 380px;
+
+}
+.profile .ct i.icon_tine4{
+    background: url("../images/icon_tine4.png") 0 0 no-repeat;
+    display: inline-block;
+}
+.profile .ct i h1{
+    font-size: 60px;
+    font-family: "微软雅黑";
+    color: #fff;
+    margin-left: 326px;
+    margin-top: 126px;
+    font-style:normal;
+}
+.profile .ct i p{
+    font-size: 18px;
+    font-family: "微软雅黑";
+    color: #fff;
+    margin-left: 328px;
+    margin-top: 126px;
+    font-style:normal;
+}
+.profile .ct i p a{
+    font-size: 18px;
+    font-family: "微软雅黑";
+    color: #fff;
+    text-decoration: none;
+}
+
+.college{
+    width:1200px;
+    height:686px;
+    margin: 0 auto;
+
+}
+.college ul li{
+    float: left;
+    line-height:48px;
+}
+.college ul li a{
+    text-decoration: none;
+    margin-left:68px;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color: #333333;
+    margin-top: 14px;
+}
+.college ul .first{
+    color: #ffffff;
+    padding: 16px 48px 14px 44px;
+    background-color: #44a4df;
+}
+.college .about{
+    width: 1200px;
+    height: 554px;
+    position:relative ;
+}
+.college .about .jian p{
+    font-size: 36px;
+    font-family: "微软雅黑";
+    color: #000;
+    margin-top: 42px;
+}
+.college .about .jian p span{
+    font-size: 20px;
+    font-family: "微软雅黑";
+    color: #44a4df;
+}
+.college .about .tup i{
+    width: 1200px;
+    height: 382px;
+}
+.college .about .tup i.icon_tine6{
+    background: url("../images/icon_tine6.png") 0 0 no-repeat;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+}
+.college .about .tup h1{
+    font-size: 30px;
+    font-family: "微软雅黑";
+    color: #fff;
+    position: absolute;
+    left: 510px;
+    top: 200px;
+}
+.college .about .tup p{
+    font-size: 20px;
+    font-family: "微软雅黑";
+    color: #fff;
+    position: absolute;
+    left: 493px;
+    top: 270px;
+}
+.college .tup2 i{
+    width: 42px;
+    height: 60px;
+}
+.college .tup2 i.icon_tine1{
+    background: url("../images/icon_tine1.png") 0 0 no-repeat;
+    display: inline-block;
+    position: absolute;
+    top: 235px;
+    left: 105px;
+}
+.college .tup3 i{
+    width: 42px;
+    height: 60px;
+}
+.college .tup3 i.icon_tine5{
+    background: url("../images/icon_tine5.png") 0 0 no-repeat;
+    display: inline-block;
+    position: absolute;
+    top: 235px;
+    left: 1065px;
+}
+.college .duanluo p{
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color: #000;
+    line-height: 32px;
+    margin-top: 30px;
+}
+
+
+.history{
+    width:1200px;
+    height: 756px;
+    margin: 0 auto;
+}
+.history .jian p{
+    font-size: 36px;
+    font-family: "微软雅黑";
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.history .jian p span{
+    font-size: 20px;
+    font-family: "微软雅黑";
+    color: #44a4df;
+}
+.history .tage{
+    width:1200px;
+    height: 690px;
+    position: relative;
+}
+.history .tage .ae{
+    width: 160px;
+    height: 690px;
+
+    float: left;
+    border-right:1px solid #333333;
+}
+.history .tage .fl{
+    width: 992px;
+    height: 690px;
+    float: right;
+}
+.history .tage .ae li{
+    font-size: 25px;
+    font-family: "微软雅黑";
+    color: #000;
+}
+.history .tage .ae .a{
+    margin-top: 72px;
+    margin-left: 32px;
+}
+.history .tage .ae .b{
+    margin-top: 85px;
+    margin-left: 32px;
+}
+.history .tage .ae .c{
+    margin-top: 182px;
+    margin-left: 32px;
+}
+.history .tage .ae .d{
+    margin-top: 64px;
+    margin-left: 32px;
+}
+.history .tage .ae .e{
+    margin-top: 68px;
+    margin-left: 32px;
+}
+.history .tage .fl li{
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color: #333333;
+}
+.history .tage .mq li i{
+    width:33px;
+    height: 33px;
+    background-color:#fff;
+    float: left;
+}
+.history .tage .mq li i.icon_tine7{
+    background: url("../images/icon_tine7.png") 0 0 no-repeat;
+    display: inline-block;
+}
+.history .tage .mq .m{
+    position: absolute;
+    top:78px;
+    left: 150px;
+}
+.history .tage .mq .n{
+    position: absolute;
+    top:195px;
+    left: 150px;
+}
+.history .tage .mq .o{
+    position: absolute;
+    top:413px;
+    left: 150px;
+}
+.history .tage .mq .p{
+     position: absolute;
+     top:508px;
+     left: 150px;
+}
+.history .tage .mq .q{
+    position: absolute;
+    top:610px;
+    left: 150px;
+}
+.history .tage .fl .f{
+    margin-top: 76px;
+}
+.history .tage .fl .g{
+    margin-top: 76px;
+}
+.history .tage .fl .i{
+    margin-top: 40px;
+}
+.history .tage .fl .j{
+    margin-top: 136px;
+}
+.history .tage .fl .k{
+    margin-top: 76px;
+}
+.history .tage .fl .l{
+    margin-top: 78px;
+}
+
+
+.vision{
+    width: 1200px;
+    margin: 0 auto;
+}
+.vision .jian p{
+    font-size: 36px;
+    font-family: "微软雅黑";
+    color: #000;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+.vision .jian p span{
+    font-size: 20px;
+    font-family: "微软雅黑";
+    color: #44a4df;
+}
+.vision .mission{
+    margin-left: 30px;
+}
+.vision .mission h1{
+    font-size: 20px;
+    font-family: "微软雅黑";
+    color: #266f9f;
+}
+.vision .mission p{
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color: #333333;
+   line-height: 46px;
+}
+.ward{
+    width: 1200px;
+    margin: 0 auto;
+}
+.ward .jian p{
+    font-size: 36px;
+    font-family: "微软雅黑";
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.ward .jian p span{
+    font-size: 20px;
+    font-family: "微软雅黑";
+    color: #44a4df;
+}
+.ward .title{
+    width: 1200px;
+    height: 58px;
+    background-color: #006197;
+    margin-bottom: 16px;
+}
+.ward .title i{
+    width: 24px;
+    height: 18px;
+}
+.ward i.icon_tine8{
+    background: url("../images/icon_tine8.png") center center no-repeat;
+    display: inline-block;
+    margin-left: 24px;
+    margin-top: 20px;
+    margin-right: 24px;
+}
+.ward .title span{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color: #ffffff;
+    line-height: 58px;
+}
+.ward .cc li{
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color: #333333;
+    line-height: 38px;
+    margin-left: 58px;
+}
+.ward .cc li span{
+    color: #427da7;
+}
+.ward  table{
+    width:1090px;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+.ward  table tr{
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color: #333333;
+    line-height: 40px;
+}
+.ward  table tr:first-child{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+td{
+    border: 1px solid #000;
+}
+
+tr td ul{
+    margin-left: 40px;
+}
+.ward  table tr .bb{
+    padding-left: 90px;
+}
+.ward .title2{
+    width: 1200px;
+    height: 58px;
+    background-color: #006197;
+    margin-bottom: 16px;
+}
+.ward .title2 i{
+    width: 18px;
+    height: 24px;
+}
+.ward .title2 i.icon_tine9{
+    background: url("../images/icon_tine9.png") center center no-repeat;
+    display: inline-block;
+    margin-left: 24px;
+    margin-top: 16px;
+    margin-right: 24px;
+}
+.ward .title2 span{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    color: #ffffff;
+    line-height: 58px;
+}
+.end i{
+    width: 100%;
+    height: 155px;
+
+}
+.end i.icon_tine10{
+    background: url("../images/icon_tine10.png") center center no-repeat;
+    display: inline-block;
+    margin-top: 48px;
+}
